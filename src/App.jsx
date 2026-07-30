@@ -1,6 +1,7 @@
 import './App.css'
-import { FaLaptopCode } from "react-icons/fa";
-import { FaArrowRight } from "react-icons/fa";
+
+import { FaGithub, FaLinkedin, FaArrowRight, FaLaptopCode, FaEnvelope } from "react-icons/fa";
+import { MdEmail } from "react-icons/md";
 
 function App() {
 
@@ -58,21 +59,23 @@ function App() {
         </div>
       </div>
 
-      <div className="Splash-Page Future-Projects flex flex-col justify-center items-center mb-20">
-        <hr className="w-350 border-2 border-secondary opacity-25 rounded-full mb-5" />
+      <div className="Splash-Page Future-Projects flex flex-col justify-center items-center mb-30">
+        <hr className="w-350 border-2 border-secondary opacity-25 rounded-full mb-25" />
         <h1 className="text-2xl font-bold text-primary py-1.5">My Projects</h1>
         <p className="text-secondary py-1">Feel free to check out some of the projects I have developed</p>
         <button className="flex items-center justify-center gap-1.5 bg-background border-accent border-2 rounded-xl text-accent py-2.5 px-5 mt-2.5">View Projects <FaArrowRight /></button>
       </div>
 
-      <div className="Splash-Page Footer bg-primary flex flex-row h-25 items-center px-15 gap-250">
-        <div className="Footer-Left">
+      <div className="Splash-Page Footer bg-primary flex flex-row h-25 items-center px-15 gap-240">
+        <div className="Footer-Left flex flex-row gap-5 items-center">
+          <h3 className="text-2xl text-background font-bold border-2 border-accent rounded-full p-2.5">VS</h3>
+
           <h3 className="text-2xl text-background font-bold">Vaibhav Saravanan</h3>
         </div>
         <div className="Footer-Right flex flex-row gap-5">
-          <FaLaptopCode className="text-background text-4xl" />
-          <FaLaptopCode className="text-background text-4xl" />
-          <FaLaptopCode className="text-background text-4xl" />
+          <FaGithub className="text-background text-4xl" />
+          <FaLinkedin className="text-background text-4xl" />
+          <FaEnvelope className="text-background text-4xl" />
         </div>
       </div>
     </>
