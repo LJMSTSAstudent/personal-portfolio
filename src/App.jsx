@@ -73,9 +73,9 @@ function App() {
           <h3 className="text-2xl text-background font-bold">Vaibhav Saravanan</h3>
         </div>
         <div className="Footer-Right flex flex-row gap-5">
-          <FaGithub className="text-background text-4xl" />
-          <FaLinkedin className="text-background text-4xl" />
-          <FaEnvelope className="text-background text-4xl" />
+          <a href="https://github.com/LJMSTSAstudent"><FaGithub className="text-background text-4xl" /></a>
+          <a href="https://www.linkedin.com/in/ksaravanan"><FaLinkedin className="text-background text-4xl" /></a>
+          <a href="mailto: vaibhav.saravanan@gmail.com"><FaEnvelope className="text-background text-4xl" /></a>
         </div>
       </div>
     </>
