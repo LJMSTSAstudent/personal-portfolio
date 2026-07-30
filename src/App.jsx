@@ -19,7 +19,7 @@ function App() {
           <p className="text-lg text-secondary text py-2.5">
             I'm passionate about innovating and strive to create tech that help bring people together.
           </p>
-          <button className="flex items-center justify-center gap-1.5 bg-accent rounded-3xl text-background py-2.5 px-5 mt-2.5">Learn More<FaArrowRight /></button>
+          <button className="flex items-center justify-center gap-1.5 border-2 border-opacity-100 bg-accent rounded-3xl text-background py-2.5 px-5 mt-2.5 hover:bg-background hover:border-accent hover:text-accent transition-colors duration-200">Learn More<FaArrowRight /></button>
         </div>
 
         <div className="Hero-Right">
@@ -67,7 +67,7 @@ function App() {
         <hr className="w-350 border-2 border-secondary opacity-25 rounded-full mb-25" />
         <h1 className="text-2xl font-bold text-primary py-1.5">My Projects</h1>
         <p className="text-secondary py-1">Feel free to check out some of the projects I have developed</p>
-        <button className="flex items-center justify-center gap-1.5 bg-background border-accent border-2 rounded-xl text-accent py-2.5 px-5 mt-2.5">View Projects <FaArrowRight /></button>
+        <button className="flex items-center justify-center gap-1.5 bg-background border-accent border-2 rounded-xl text-accent py-2.5 px-5 mt-2.5 hover:bg-accent hover:text-background transition-colors duration-200 shadow-sm">View Projects <FaArrowRight /></button>
       </div>
 
       <div className="Splash-Page Footer bg-primary flex flex-row h-25 items-center px-15 gap-240">
