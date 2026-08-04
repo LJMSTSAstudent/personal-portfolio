@@ -5,21 +5,15 @@ import { TbChefHatFilled } from "react-icons/tb";
 import { IoMdPhonePortrait } from "react-icons/io";
 
 import ProjectCardSmall  from "../components/project-card-small";
+import PageHeader from "../components/page-header";
+import PageFooter from "../components/page-footer";
 
 function Home() {
     return(
     <>
       <div className="Hero-Section bg-card">
-        <div className="Header flex flex-row justify-between px-20 pt-15 mb-10">
-          <h3 className="text-2xl text-accent font-bold">Vaibhav Saravanan</h3>
+        <PageHeader />
 
-          <div className="Buttons flex flex-row gap-5">
-            <a><h3>Home</h3></a>
-            <a><h3>About</h3></a>
-            <a><h3>Projects</h3></a>
-            <a><h3>Skills</h3></a>
-          </div>
-        </div>
         <div className="Splash-Page Hero flex flex-row px-10 pb-43 pt-25 items-center">
           <div className="Hero-Left">
             <h3 className="text-2xl text-accent font-bold">Hi, I'm</h3>
@@ -100,18 +94,7 @@ function Home() {
         <button className="flex items-center justify-center gap-1.5 bg-background border-accent border-2 rounded-xl text-accent py-2.5 px-5 mt-2.5 hover:bg-accent hover:text-background transition-colors duration-200 shadow-sm">View All Projects <FaArrowRight /></button>
       </div>
 
-      <div className="Splash-Page Footer bg-primary flex flex-row h-25 items-center justify-between px-15">
-        <div className="Footer-Left flex flex-row gap-5 items-center">
-          <h3 className="text-2xl text-background font-bold border-2 border-accent rounded-full p-2.5">VS</h3>
-
-          <h3 className="text-2xl text-background font-bold">Vaibhav Saravanan</h3>
-        </div>
-        <div className="Footer-Right flex flex-row gap-5">
-          <a href="https://github.com/LJMSTSAstudent"><FaGithub className="text-background text-4xl" /></a>
-          <a href="https://www.linkedin.com/in/ksaravanan"><FaLinkedin className="text-background text-4xl" /></a>
-          <a href="mailto: vaibhav.saravanan@gmail.com"><FaEnvelope className="text-background text-4xl" /></a>
-        </div>
-      </div>
+      <PageFooter />
     </>
     )
 }
