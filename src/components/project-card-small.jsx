@@ -16,13 +16,13 @@ function ProjectCardSmall({ imgSrc, projectName, projectDesc, projectSkills }) {
                             <h1 className="text-accent bg-card font-medium rounded-lg text-sm p-2.5" key={skill}>{skill}</h1>
                         ))}
                     </div>
-                    <hr className="border-secondary/50 border-1.5" />
+                    <hr className="border-secondary/50 border-1" />
                     <div className="Navigation-Buttons flex flex-row justify-between px-5 py-2.5">
                         <div className="Learn-More flex flex-row justify-center items-center gap-2">
                             <h1 className="font-bold text-accent" >View Projects</h1>
                             <FaArrowRightLong className="font-thin mt-1 text-accent" />
                         </div>
-                        <div className="Links flex flex-row justify-center items-center gap-1.5 py-2.5">
+                        <div className="Links flex flex-row justify-center items-center gap-3.5 py-2.5">
                             <FaGithub className="text-xl text-primary" />
                             <FaArrowUpRightFromSquare className="text-lg text-accent" />
                         </div>
