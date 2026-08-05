@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import { FaGithub, FaLinkedin, FaArrowRight, FaLaptopCode, FaEnvelope, FaChartPie } from "react-icons/fa";
 import { MdOutlineComputer } from "react-icons/md";
 import { IoCamera } from "react-icons/io5";
@@ -22,7 +24,7 @@ function Home() {
             <p className="text-lg text-secondary text py-2.5">
               I'm passionate about innovating and strive to create tech that help bring people together.
             </p>
-            <button className="flex items-center justify-center gap-1.5 border-2 border-opacity-100 bg-accent rounded-3xl text-background py-2.5 px-5 mt-2.5 hover:bg-background hover:border-accent hover:text-accent transition-colors duration-200">Learn More<FaArrowRight /></button>
+            <Link to="/About" className="flex items-center w-40 justify-center gap-1.5 border-2 border-opacity-100 bg-accent rounded-3xl text-background py-2.5 px-5 mt-2.5 hover:bg-background hover:border-accent hover:text-accent transition-colors duration-200">Learn More<FaArrowRight /></Link>
           </div>
 
           <div className="Hero-Right">
@@ -91,7 +93,7 @@ function Home() {
           />
         </div>
         <p className="text-secondary py-1">Feel free to check out some of the other projects I have developed</p>
-        <button className="flex items-center justify-center gap-1.5 bg-background border-accent border-2 rounded-xl text-accent py-2.5 px-5 mt-2.5 hover:bg-accent hover:text-background transition-colors duration-200 shadow-sm">View All Projects <FaArrowRight /></button>
+        <Link to="/Projects" className="flex items-center justify-center gap-1.5 bg-background border-accent border-2 rounded-xl text-accent py-2.5 px-5 mt-2.5 hover:bg-accent hover:text-background transition-colors duration-200 shadow-sm">View All Projects <FaArrowRight /></Link>
       </div>
 
       <PageFooter />
