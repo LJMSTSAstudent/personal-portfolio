@@ -19,7 +19,7 @@ function ProjectCardSmall({ imgSrc, projectName, projectDesc, projectSkills }) {
                     <hr className="border-secondary/50 border-1" />
                     <div className="Navigation-Buttons flex flex-row justify-between px-5 py-2.5">
                         <div className="Learn-More flex flex-row justify-center items-center gap-2">
-                            <h1 className="font-bold text-accent" >View Projects</h1>
+                            <h1 className="font-bold text-accent" >View Project</h1>
                             <FaArrowRightLong className="font-thin mt-1 text-accent" />
                         </div>
                         <div className="Links flex flex-row justify-center items-center gap-3.5 py-2.5">
