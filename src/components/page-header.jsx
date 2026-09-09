@@ -2,7 +2,7 @@ import { NavLink } from "react-router-dom";
 
 function PageHeader() {
     return(
-        <div className="Header flex flex-row justify-between px-20 pt-15 mb-10">
+        <div className="Header flex flex-row justify-between px-20 pt-15 h-[10vh]">
             <h3 className="text-2xl text-accent font-bold">Vaibhav Saravanan</h3>
 
         <div className="Buttons flex flex-row gap-5">

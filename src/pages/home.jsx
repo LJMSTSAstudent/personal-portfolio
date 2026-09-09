@@ -16,7 +16,7 @@ function Home() {
       <div className="Hero-Section bg-card">
         <PageHeader />
 
-        <div className="Splash-Page Hero flex flex-row px-10 pb-43 pt-25 items-center">
+        <div className="Splash-Page Hero flex flex-row px-10 items-center h-[90vh]">
           <div className="Hero-Left">
             <h3 className="text-2xl text-accent font-bold">Hi, I'm</h3>
             <h1 className="text-7xl text-primary font-extrabold py-2.5 mb-2.5">Vaibhav Saravanan</h1>
